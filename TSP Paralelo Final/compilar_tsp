@@ -1,0 +1,4 @@
+#!/bin/bash
+
+g++ tsp_secuencial.cpp -o tsp_secuencial
+g++ tsp_paralelo.cpp -o tsp_paralelo -pthread
